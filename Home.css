@@ -1,0 +1,28 @@
+.img{ margin-right: 20vw;
+    margin-top: 50px;
+    width: 200px;
+height: 200px;
+border-radius: 50%;
+object-fit:cover}
+.para{margin-left: 10vw;
+margin-top: 100px;}
+.h{ height: 20px;
+   
+}
+.p{
+    overflow: hidden;
+    animation-name: anima;
+animation-duration: 10s;
+animation-iteration-count: 1;}
+@keyframes anima { 0%{opacity: 0;
+padding-left: 100vw;}
+100%{opacity: 1;
+padding-left: 0px;}
+    
+}
+@media screen and (max-width:720px){
+    
+    .h{height: fit-content;
+    }
+    
+}
